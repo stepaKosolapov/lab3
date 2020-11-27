@@ -9,7 +9,7 @@ int main()
     float num;
     cout << "Input N: ";
     cin >> N;
-    for(int i; i <= N; i++)
+    for(int i = 1; i <= N; i++)
     {
         cin >> num;
         cout << pow(num, num) << " ";
